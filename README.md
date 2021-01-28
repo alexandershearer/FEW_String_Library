@@ -14,5 +14,4 @@
 
 #### All of these functions manipulate the string in some way related to the function title and all have very simple usage. Hopefully before long I will have them all working and available to download through NPM. I could not get the Github linked to the NPM. Confusing documentation is giving me problems understanding.
 
-#### Here is a link to my library https://www.npmjs.com/package/@alex.shearer/src
-# FEW_String_Library
+#### Here is a link to my library https://www.npmjs.com/package/@alex.shearer/few_string_lib
