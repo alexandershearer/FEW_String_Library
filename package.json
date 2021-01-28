@@ -1,8 +1,15 @@
 {
-  "name": "@alex.shearer/few_string_lib",
-  "version": "1.0.0",
+  "name": "@alexandershearer/few_string_lib",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandershearer/FEW_String_Library.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
