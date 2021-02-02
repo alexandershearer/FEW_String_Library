@@ -1,6 +1,6 @@
 {
   "name": "@alexandershearer/few_string_lib",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -11,9 +11,12 @@
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
 }
