@@ -54,7 +54,7 @@ function camelCase(str) {
         if (x == 0) {
             newStr += newString[x]
         } else {
-            newStr += upperFirst(newString[x])
+            newStr += capitalizeHeadline(newString[x])
         }
     }
     return newStr
@@ -70,9 +70,9 @@ function shift(str) {
 }
 
 function makeHashTag(str) {
-    const capiltol = capitalizeWords(str).split(' ')
+    const capitol = capitalizeWords(str).split(' ')
 
-    const result = capiltol.join('')
+    const result = capitol.join('')
 
     return '#' + result;
 }

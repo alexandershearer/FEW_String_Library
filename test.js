@@ -19,3 +19,19 @@ test('Check kabobCase', () => {
 test('Check snakeCase', () => {
     expect(str.snakeCase('this is a test snake')).toBe("this_is_a_test_snake")
 })
+
+test('Check camelcase', () => {
+    expect(str.camelCase('hello world')).toBe("helloWorld")
+})
+
+test('Check shift', () => {
+    expect(str.shift('hello')).toBe("elloh")
+})
+
+test('Check hashtag', () => {
+    expect(str.makeHashTag('hello')).toBe("#HELLO")
+})
+
+test('Check isEmpty', () => {
+    expect(str.isEmpty('hello')).toBe(false)
+})
