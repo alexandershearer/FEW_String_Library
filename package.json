@@ -1,22 +1,25 @@
 {
-  "name": "@alexandershearer/few_string_lib",
+  "name": "@alex.shearer/few_string_lib",
   "version": "1.0.6",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexandershearer/FEW_String_Library.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "scripts": {
-    "test": "jest"
+    "url": "git+https://github.com/alexandershearer/FEW_String_Library.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "coveralls": "^3.1.0",
     "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0"
   }
 }

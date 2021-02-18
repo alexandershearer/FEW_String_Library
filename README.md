@@ -5,6 +5,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/alexandershearer/FEW_String_Lib)
 ![GitHub file size in bytes](https://img.shields.io/github/size/alexandershearer/FEW_String_Lib/index.js)
 ![Lines of code](https://img.shields.io/tokei/lines/github/alexandershearer/FEW_String_Lib)
+[![Build Status](https://travis-ci.com/alexandershearer/FEW_String_Library.svg?branch=main)](https://travis-ci.com/alexandershearer/FEW_String_Library)
+[![Coverage Status](https://coveralls.io/repos/github/alexandershearer/FEW_String_Lib/badge.svg?branch=main)](https://coveralls.io/github/alexandershearer/FEW_String_Lib?branch=main)
 
 ## Here is a library I created to help with some basic string manipulation.
 

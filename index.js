@@ -80,11 +80,10 @@ function makeHashTag(str) {
 
 
 function isEmpty(str) {
-    let trimmedStr = str.trim()
     let isEmpty = true
     for (let i = 0; i < str.length; i++) {
         if (str[i] == ' ' || str[i] == '\n' || str[i] == '\r' || str[i] == '\t') {
-
+            return true
         } else {
             isEmpty = false
         }
