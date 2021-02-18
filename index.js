@@ -16,7 +16,7 @@ function capitalizeHeadline(str) {
 }
 
 function removeExtraSpaces(str) {
-    newStr = string.trim(str)
+    let newStr = String.trim(str)
     const strArray = newStr.split(' ')
     return strArray.join(" ")
 }
@@ -91,7 +91,7 @@ function isEmpty(str) {
     return isEmpty
 }
 
-module.exports = {
+export default {
     capitalize,
     capitalizeWords,
     capitalizeHeadline,
